@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2359894454768413323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2359894454768413317}
+  - component: {fileID: 2359894454768413322}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2359894454768413317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359894454768413323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2359894454768413322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359894454768413323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bcea6ca928d534abc91557cabf0765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Click
+    clip: {fileID: 8300000, guid: 663c1fed105b79a48bb1ba37b85e0439, type: 3}
+    audioMixerGroup: {fileID: 5471365390046434859, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.5
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu theme
+    clip: {fileID: 8300000, guid: cce9c48f87c5c594b8ced89d476d4994, type: 3}
+    audioMixerGroup: {fileID: -4991075313903863149, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 1 theme
+    clip: {fileID: 8300000, guid: 28b4869e57c5f7a4ca856b89d5dff950, type: 3}
+    audioMixerGroup: {fileID: -4991075313903863149, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 2 theme
+    clip: {fileID: 8300000, guid: 5ceb0210fb6381a448cd0c3b818f1ad4, type: 3}
+    audioMixerGroup: {fileID: -4991075313903863149, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 3 theme
+    clip: {fileID: 8300000, guid: 226deb1d1323c0a4d94a50367b99b613, type: 3}
+    audioMixerGroup: {fileID: -4991075313903863149, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Credit theme
+    clip: {fileID: 8300000, guid: 4d2405cdf1038e64a8d2f0c901b86d65, type: 3}
+    audioMixerGroup: {fileID: -550061277409720950, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Taunt death 1
+    clip: {fileID: 8300000, guid: 8a59b48675687514b95a95b9934e308f, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 2
+    clip: {fileID: 8300000, guid: cffe94f3700df7b43a8bbf5d0f19a2a0, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 3
+    clip: {fileID: 8300000, guid: d9efb41fc53d82d4e84ab903e7fb2bdf, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 4
+    clip: {fileID: 8300000, guid: 817eac2ae8c9be2429d7d3097c8d9fa8, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 5
+    clip: {fileID: 8300000, guid: c551b5b12a21f2140b8cdde39b65bab6, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 6
+    clip: {fileID: 8300000, guid: 48f67829d7468594c9e912d0faead073, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 7
+    clip: {fileID: 8300000, guid: 523c9ff9fd0b3594db3dd7cbec81a123, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 8
+    clip: {fileID: 8300000, guid: 9296f8a594f3cea4da8d1ce8d91c8eb0, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 9
+    clip: {fileID: 8300000, guid: 832ec83ff38d42d4487c302aff173f63, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Taunt death 10
+    clip: {fileID: 8300000, guid: c82419371e698d14f803fa2a78dd7e59, type: 3}
+    audioMixerGroup: {fileID: 3415395282038540567, guid: 491da55318ee94d41852da638cfb95ef,
+      type: 2}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
